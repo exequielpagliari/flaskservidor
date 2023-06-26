@@ -83,7 +83,7 @@ def update_producto(id):
 
 @app.route('/data', methods=['GET'])
 def get_query_string():
-    print(request.query_string)
+    
     return request.query_string
 
 
